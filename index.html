@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Museo Sans | Museum Website Concept</title>
+    <meta
+      name="description"
+      content="Museo Sans — a museum website concept featuring collections from Birmingham Museums and the Rijksmuseum."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <nav class="navbar" aria-label="Primary">
+          <a class="nav-link nav-brand" href="#home">Museo Sans</a>
+          <a class="nav-link hide-tablet" href="#collections">Collections</a>
+          <a class="nav-link hide-tablet" href="#missions">Our missions</a>
+          <a class="nav-link hide-tablet" href="#events">Events</a>
+        </nav>
+
+        <div class="header-actions">
+          <a class="nav-link btn-contact" href="#contact">Contact now</a>
+
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label class="nav-link menu-btn" for="menu-toggle" aria-label="Open menu">
+            <span class="menu-icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            Menu
+          </label>
+
+          <div class="mobile-menu" role="navigation" aria-label="Mobile">
+            <a href="#collections">Collections</a>
+            <a href="#missions">Our missions</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact now</a>
+          </div>
+        </div>
+      </header>
+
+      <main id="home" class="gallery">
+        <article class="card card-birmingham" id="collections">
+          <div class="card-copy">
+            <span class="tag">Congreve Street</span>
+            <h1>Birmingham Museums.</h1>
+          </div>
+          <div class="media">
+            <img
+              src="assets/images/birmingham-museums.jpg"
+              alt="Historic street view associated with Birmingham Museums on Congreve Street"
+            />
+          </div>
+          <a class="cta" href="#missions">
+            <span>Get started</span>
+            <span class="cta-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M5 12h14M13 6l6 6-6 6"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </a>
+        </article>
+
+        <div class="gallery-right">
+          <article class="card card-europeana" id="missions">
+            <div class="europeana-grid">
+              <div class="card-copy">
+                <span class="tag">Europeana</span>
+                <h2>A Woman Slicing Bread.</h2>
+                <p class="meta">
+                  Date: 1800. Institution: Rijksmuseum. Provider:
+                  Rijksmuseum. Providing country: Netherlands. Public
+                  domain. Photo by Europeana.
+                </p>
+              </div>
+              <div class="media">
+                <img
+                  src="assets/images/woman-slicing-bread.jpg"
+                  alt="A Woman Slicing Bread, Johannes Christiaan Janson, c. 1800, Rijksmuseum"
+                />
+              </div>
+            </div>
+            <a class="cta" href="#events">
+              <span>Get started</span>
+              <span class="cta-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M5 12h14M13 6l6 6-6 6"
+                    stroke="currentColor"
+                    stroke-width="1.8"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </a>
+          </article>
+
+          <div class="gallery-bottom">
+            <article class="card card-portrait" id="events">
+              <div class="media media-wide">
+                <img
+                  src="assets/images/portrait-maritge.jpg"
+                  alt="Portrait of Maritge Claesdr Vooght by Frans Hals, 1639"
+                />
+              </div>
+              <div class="card-copy">
+                <h2 class="display">Portrait</h2>
+                <p class="meta">
+                  Portrait of Maritge Claesdr Vooght. Date: 1639.
+                  Institution: Rijksmuseum. Provider: Rijksmuseum.
+                  Providing country: Netherlands. Public domain
+                </p>
+              </div>
+              <a class="cta" href="#contact">
+                <span>Get started</span>
+                <span class="cta-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M5 12h14M13 6l6 6-6 6"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </article>
+
+            <article class="card card-vintage" id="contact">
+              <div class="card-copy vintage-head">
+                <div>
+                  <span class="tag">Europeana</span>
+                </div>
+                <div class="avatar">
+                  <img
+                    src="assets/images/vintage-painting.jpg"
+                    alt="Portrait of a Man, 1648, Rijksmuseum"
+                  />
+                </div>
+              </div>
+              <div class="card-copy">
+                <h2>Vintage Painting.</h2>
+                <p class="meta">
+                  Portrait of a man. Date: 1648. Institution: Rijksmuseum.
+                  Provider: Rijksmuseum. Providing country: Netherlands.
+                  Public domain
+                </p>
+              </div>
+              <div class="split-meta">
+                <span>Public domain</span>
+                <span>Netherlands</span>
+              </div>
+              <a class="cta" href="#home">
+                <span>Get started</span>
+                <span class="cta-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M5 12h14M13 6l6 6-6 6"
+                      stroke="currentColor"
+                      stroke-width="1.8"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
